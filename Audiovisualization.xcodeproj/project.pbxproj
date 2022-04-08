@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -58,13 +58,21 @@
 			children = (
 				1534122227FF632A00E4F094 /* AppDelegate.swift */,
 				1534122427FF632A00E4F094 /* SceneDelegate.swift */,
-				1534122627FF632A00E4F094 /* ViewController.swift */,
+				1534123627FF633400E4F094 /* Controller */,
 				1534122827FF632A00E4F094 /* Main.storyboard */,
 				1534122B27FF632D00E4F094 /* Assets.xcassets */,
 				1534122D27FF632D00E4F094 /* LaunchScreen.storyboard */,
 				1534123027FF632D00E4F094 /* Info.plist */,
 			);
 			path = Audiovisualization;
+			sourceTree = "<group>";
+		};
+		1534123627FF633400E4F094 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1534122627FF632A00E4F094 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +111,7 @@
 				};
 			};
 			buildConfigurationList = 1534121A27FF632A00E4F094 /* Build configuration list for PBXProject "Audiovisualization" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
